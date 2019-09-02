@@ -106,5 +106,6 @@ class Student
     SQL
 
     DB[:conn].execute(sql, grade)
+    binding.pry
   end
 end
